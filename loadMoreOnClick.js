@@ -9,7 +9,7 @@ $(function() {
       .slideDown();
 
     if ($("div:hidden").length == 0) {
-      $("load").fadeOut("slow");
+      $("#load").fadeOut("slow");
     }
 
     $("html,body").animate(
